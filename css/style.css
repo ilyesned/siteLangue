@@ -22,6 +22,15 @@ h1,h2,h3,p,ul,ol,a,th,figure{
 *{
     box-sizing: border-box;
 }
+
+#hidden-hour{
+    visibility: hidden;
+}
+
+#niv-A1A2, #niv-B1B2{
+    display: none;
+}
+
 section img{
     width: 70%;
     display: block;
