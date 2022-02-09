@@ -27,7 +27,7 @@ h1,h2,h3,p,ul,ol,a,th,figure{
     visibility: hidden;
 }
 
-#niv-A1A2, #niv-B1B2{
+#niv-AB1AB2, #niv-C1C2, #niv-child, #niv-portu{
     display: none;
 }
 
@@ -52,6 +52,13 @@ section img{
     margin: 15rem auto;
     width: 35rem;
 }
+
+#all-level{
+    border: none;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
 
 section{
     border: .1rem solid #ccc;

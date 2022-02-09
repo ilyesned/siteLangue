@@ -1,3 +1,7 @@
+<?php 
+    include_once("./src/connect_bdd.inc.php")
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -23,26 +27,35 @@
             <input name="firstname" id="firstname" placeholder="Indiquez votre prénom" type="text">
             <input name="email" id="adressMail" placeholder="Indiquez votre adresse mail">
             <input name="phone" id="phone" placeholder="Indiquez votre numéro de téléphone" type="text">
+
             <select name="language" id="language-select">
                 <option value="">Choissiez une langue</option>
-                <option value="Anglais">Anglais</option>
-                <option value="Portugais">Portugais</option>
+                <option value="1">Anglais</option>
+                <option value="2">Portugais</option>
+            </select>
+            <select name="language" id="niv-portu">
+                <option value="">Choissiez le niveau souhaité</option>
+                <option value="1">Niveau A1-A2</option>
             </select>
             <select name="level" id="level-select">
                 <option value="">Choissez le niveau souhaité</option>
                 <option value="1">Niveau A1-A2</option>
                 <option value="2">Niveau B1-B2</option>
                 <option value="3">Niveau C1-C2</option>
+                <option value="4">Enfant</option>
             </select>
-            <select name="hourBeginner" id="niv-A1A2">
+            <select name="hourBeginner" id="niv-AB1AB2">
                 <option value="">Choissez le créneau horaire</option>
                 <option value="vendrediBefore">Vendredi avant le culte</option>
                 <option value="dimancheAfter">Dimanche après le culte</option>
             </select>
-            <select name="hourBeginner" id="niv-B1B2">
+            <select name="hourBeginner" id="niv-C1C2">
                 <option value="">Choissez le créneau horaire</option>
-                <option value="vendrediBefore">Vendredi avant le culte</option>
-                <option value="dimancheAfter">Dimanche après le culte</option>
+                <option value="vendrediBefore">Dimanche avant le culte</option>
+            </select>
+            <select name="hourBeginner" id="niv-child">
+                <option value="">Choissez le créneau horaire</option>
+                <option value="vendrediBefore">Dimanche après le culte</option>
             </select>
             <input type="submit" value="Envoyer" class="btn_send">
         </form>
