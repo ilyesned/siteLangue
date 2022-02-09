@@ -7,6 +7,9 @@
     <meta name="plagiatInsta" content="Copie Page Instagram">
     <title>Ax'langu</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 </head>
 <body>
 
@@ -20,8 +23,17 @@
             <input name="firstname" id="firstname" placeholder="Indiquez votre prénom" type="text">
             <input name="email" id="adressMail" placeholder="Indiquez votre adresse mail">
             <input name="phone" id="phone" placeholder="Indiquez votre numéro de téléphone" type="text">
-            <input name="language" id="language" placeholder="Choisissez la langue" type="text">
-            <input name="level" id="level" placeholder="Indiquez le niveau souhaité" type="text">
+            <select name="language" id="language-select">
+                <option value="">Choissiez une langue</option>
+                <option value="Anglais">Anglais</option>
+                <option value="Portugais">Portugais</option>
+            </select>
+            <select name="level" id="level-select">
+                <option value="">Choissiez le niveau souhaité</option>
+                <option value="beginner">Niveau A1-A2</option>
+                <option value="intermediate">Niveau B1-B2</option>
+                <option value="advanced">Niveau C1-C2</option>
+            </select>
             <input type="submit" value="Envoyer" class="btn_send">
         </form>
     </section>
