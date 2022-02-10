@@ -27,7 +27,7 @@ h1,h2,h3,p,ul,ol,a,th,figure{
     visibility: hidden;
 }
 
-#niv-AB1AB2, #niv-C1C2, #niv-child, #niv-portu{
+#niv-AB1AB2, #niv-C1C2, #niv-child, #niv-portu, #level-select{
     display: none;
 }
 

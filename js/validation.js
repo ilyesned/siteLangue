@@ -3,7 +3,6 @@ var password = document.forms['form']['password'];
 
 var login_error = document.getElementById('login_error');
 var password_error = document.getElementById('password_error');
-var champs_error = document.getElementById('champs_error');
 var identifiant_error = document.getElementById('identifiant_error');
 
 function validated(){

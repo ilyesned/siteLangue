@@ -1,31 +1,11 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 
 body {
-    background: url(../asset/bg_img.jpg) no-repeat;
+    background: url(../asset/bg_img.jpg) repeat;
     background-size: cover;
     align-items: center;
     justify-content: center;
     display: flex;
     font-family: sans-serif;
-}
-.container {
-    position: relative;
-    margin-top: 100px;
-    width: 450px;
-    height: auto;
-    background: #dedede;
-    border-radius: 5px;
-}
-.label{
-    padding: 20px 130px;
-    font-size: 35px;
-    font-weight: bold;
-    color: #130f40;
-    text-align: center;
 }
 .login_form{
     padding: 20px 40px;
@@ -63,21 +43,20 @@ body {
 .login_form button:hover{
     background: #151c6a;
 }
-.login_form #login_error, .login_form #password_error {
+.mb-3 #login_error, .mb-3 #password_error {
     margin-top: 5px;
-    width: 345px;
     font-size: 18px;
     color: #C62828;
     background: rgba(255,0,0,0.1);
     text-align: center;
-    padding: 5px 8px;
+    padding: 5px 15px;
     border-radius: 3px;
     border: 1px solid #EF9A9A;
     display: none;
 }
 #identifiant_error {
     margin-top: 5px;
-    width: 345px;
+    margin-bottom: 10px;
     font-size: 18px;
     color: #C62828;
     background: rgba(255,0,0,0.1);
@@ -87,15 +66,15 @@ body {
     border: 1px solid #EF9A9A;
     display: none;
 }
-#champs_error {
-    margin-top: 5px;
-    width: 345px;
-    font-size: 18px;
-    color: #C62828;
-    background: rgba(255,0,0,0.1);
-    text-align: center;
-    padding: 5px 8px;
-    border-radius: 3px;
-    border: 1px solid #EF9A9A;
-    display: none;
-}
+.tite-color{
+    color: #130f40;
+    font-size: 40px;
+  }
+  .btn-primary{
+    background-color: #1c283e;
+    border-color: #1c283e;
+  }
+  
+  .text-size{
+    font-size: 14px;
+  }
