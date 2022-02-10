@@ -1,3 +1,7 @@
+<?php 
+    include_once("./src/connect_bdd.inc.php")
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
